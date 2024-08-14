@@ -24,7 +24,7 @@ public:
 	
 	//物体运行逻辑
 
-	Object(int width_wid,int height_wid,int x, int y, int width, int height) :x(x), y(y), m_width(width), m_height(height)
+	Object(int x, int y, int width, int height) :x(x), y(y), m_width(width), m_height(height)
 	{
 	}
 

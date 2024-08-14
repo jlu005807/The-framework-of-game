@@ -27,9 +27,9 @@ public:
 	static int widget_num;
 
 	//界面属性
-	int width_game;
+	static int width_game;
 
-	int height_game;
+	static int height_game;
 
 
 	//改变界面
@@ -44,11 +44,20 @@ public:
 		game::is_running = one;
 	}
 
+	static int Getwidth() {
+		return width_game;
+	}
+
+	static int Getheight()
+	{
+		return height_game;
+	}
+
 	//储存界面
 	std::vector<Widget*> m_widgets;
 
 	//（构造函数作为初始化）
-	game(int width,int height,int widget_num):width_game(width),height_game(height)
+	game(int width,int height,int widget_num)
 	{
 		init_game(width,height,widget_num);
 	}

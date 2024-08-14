@@ -11,6 +11,8 @@ void game::init_game(int width, int height,int widget_num)
 	game::current_widget = 0;
 	game::widget_num = widget_num;
 	game::is_running = true;
+	game::width_game = width;
+	game::height_game = height;
 
 	for (int i = 0; i < widget_num; i++)
 	{

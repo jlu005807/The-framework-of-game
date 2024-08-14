@@ -25,7 +25,7 @@ private:
 	Status status = Status::Idle;
 
 public:
-	Button(int width_wid,int height_wid,int x,int y,int width,int height,const std::function<void()>& onClick,std::vector<IMAGE*>contents):Object(width_wid,height_wid,x,y,width,height),onClick(onClick)
+	Button(int x,int y,int width,int height,const std::function<void()>& onClick,std::vector<IMAGE*>contents):Object(x,y,width,height),onClick(onClick)
 	{
 		for (int i = 0; i < contents.size(); i++)
 		{
