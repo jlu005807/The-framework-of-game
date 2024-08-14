@@ -1,0 +1,9 @@
+﻿  main.cpp
+C:\Users\12894\source\repos\The framework of game\The framework of game\Button.h(39,19): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+C:\Users\12894\source\repos\The framework of game\The framework of game\Button.h(40,20): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+main.obj : error LNK2019: 无法解析的外部符号 __imp_AlphaBlend，函数 "void __cdecl putimage_alpha(int,int,class IMAGE *)" (?putimage_alpha@@YAXHHPEAVIMAGE@@@Z) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "private: void __cdecl game::close_game(void)" (?close_game@game@@AEAAXXZ)，函数 "public: __cdecl game::~game(void)" (??1game@@QEAA@XZ) 中引用了该符号
+main.obj : error LNK2001: 无法解析的外部符号 "public: static bool game::is_running" (?is_running@game@@2_NA)
+main.obj : error LNK2001: 无法解析的外部符号 "public: static int game::current_widget" (?current_widget@game@@2HA)
+main.obj : error LNK2001: 无法解析的外部符号 "public: static int game::widget_num" (?widget_num@game@@2HA)
+C:\Users\12894\source\repos\The framework of game\x64\Debug\The framework of game.exe : fatal error LNK1120: 5 个无法解析的外部命令
